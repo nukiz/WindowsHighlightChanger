@@ -16,7 +16,7 @@ namespace HighlightColorChanger.util
         public static void SetColorFromRegistry(Color Highlight, Color HotTracking)
         {
            RegKey.SetValue("Hilight", Highlight.R + " " + Highlight.G + " " + Highlight.B);
-           RegKey.SetValue("HotTrackingColor", "");
+           RegKey.SetValue("HotTrackingColor", HotTracking.R + " " + HotTracking.G + " " + HotTracking.B);
         }
     }
 }
