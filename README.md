@@ -8,4 +8,5 @@ Once you've applied your changes via the APPLY button then you'll need to restar
 
 ### Bad comparison
 before
+
 ![image](https://github.com/nukiz/WindowsHighlightChanger/assets/61660487/aa818b0e-4ee5-42fb-ba16-3801f6da7ec8)
