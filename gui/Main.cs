@@ -44,7 +44,8 @@ namespace HighlightColorChanger
 
         private void ApplyButton_Click(object sender, EventArgs e)
         {
-             RegistryUtil.SetColorFromRegistry(NewHighlightColor, NewBoxColor);
+            RegistryUtil.SetColorFromRegistry(NewHighlightColor, NewBoxColor);
+            MessageBox.Show("Succesfully applied colors!", "Success", MessageBoxButtons.OK);
         }
 
         private void panel1_Click(object sender, EventArgs e)
